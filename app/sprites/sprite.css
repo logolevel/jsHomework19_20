@@ -16,7 +16,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-arrow-blue {
+  background-image: url(../sprites/sprite.png);
+  background-position: -32px -48px;
+  width: 10px;
+  height: 9px;
+}
+.icon-arrow-grey {
+  background-image: url(../sprites/sprite.png);
+  background-position: -80px -62px;
+  width: 10px;
+  height: 9px;
+}
 .icon-facebook-blue {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -73px;
+  width: 8px;
+  height: 16px;
+}
+.icon-facebook-grey {
   background-image: url(../sprites/sprite.png);
   background-position: -8px -73px;
   width: 8px;
@@ -28,15 +46,9 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 8px;
   height: 16px;
 }
-.icon-facebook-grey {
-  background-image: url(../sprites/sprite.png);
-  background-position: 0px -73px;
-  width: 8px;
-  height: 16px;
-}
 .icon-in-blue {
   background-image: url(../sprites/sprite.png);
-  background-position: -32px -32px;
+  background-position: -48px -32px;
   width: 16px;
   height: 16px;
 }
@@ -90,7 +102,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-skype-grey {
   background-image: url(../sprites/sprite.png);
-  background-position: -48px -32px;
+  background-position: -32px -32px;
   width: 16px;
   height: 16px;
 }

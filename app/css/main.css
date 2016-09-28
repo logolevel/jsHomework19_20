@@ -1,6 +1,10 @@
 /*font*/
 /*color*/
 /*effects*/
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif; }
+
 /*grid*/
 .container {
   width: 1160px;
@@ -10,6 +14,12 @@
   display: block;
   clear: both;
   content: ''; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 /*header style*/
 .header {
@@ -72,7 +82,7 @@
 .menu__link:hover {
   color: #f4b60d; }
 
-.active {
+.active-link {
   background-color: #248cec; }
 
 /*search*/
@@ -110,3 +120,105 @@
   font-style: normal; }
 
 /*styles to write here*/
+/*slider*/
+#owl-demo .item {
+  margin: 3px; }
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.slider-wrap .owl-dots {
+  width: 100%;
+  text-align: center;
+  margin-top: -35px; }
+
+.slider-wrap .owl-dot {
+  width: 17px;
+  height: 17px;
+  background-color: #fff;
+  display: inline-block;
+  opacity: 0.9;
+  margin-left: 15px; }
+
+.slider-wrap .owl-dot.active {
+  background-color: #000;
+  border: 3px solid #fff; }
+
+.item {
+  position: relative; }
+
+.item-title-wrap {
+  position: absolute;
+  bottom: 40px;
+  left: 40px; }
+
+.item-title {
+  font-family: "Ubuntu Medium", Arial, sans-serif;
+  color: #fff;
+  font-size: 54px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding: 0px 28px;
+  text-transform: uppercase; }
+
+.item-title i {
+  color: #f4b60d; }
+
+.item-title--top {
+  padding-top: 28px; }
+
+.item-title--bottom {
+  padding-bottom: 28px; }
+
+.item-title--middle {
+  letter-spacing: 2.5px; }
+
+/*section options*/
+.options {
+  margin: 65px 0 85px 0; }
+
+.options__item {
+  position: relative;
+  width: 33.33333333%;
+  padding: 0 35px 0 120px;
+  float: left; }
+
+.options__key {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Ubuntu Medium", Arial, sans-serif;
+  font-size: 90px;
+  color: #ccc;
+  line-height: 64px; }
+
+.icon {
+  display: block; }
+
+.options__title {
+  font-size: 20px;
+  margin: 20px 0;
+  font-family: "Ubuntu Medium", Arial, sans-serif; }
+
+.options__paragraph {
+  font-size: 13px;
+  color: #8a8a8a;
+  line-height: 18px;
+  margin-bottom: 20px; }
+
+.icon-inline {
+  display: inline-block;
+  margin-left: 10px; }
+
+.options__link {
+  font-family: "Ubuntu Medium", Arial, sans-serif;
+  text-decoration: none;
+  color: #000; }
+
+.options__link:hover {
+  color: #248cec; }
+
+.options__link:hover .icon-arrow-blue {
+  background-position: -80px -62px; }

@@ -1,3 +1,7 @@
+body {
+	background-color: #fff;
+	font-family: $main-font;
+}
 /*grid*/
 .container {
 	width: 1160px;
@@ -7,6 +11,11 @@
 	display: block;
 	clear: both;
 	content: '';
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
 }
 /*header style*/
 .header {
@@ -67,7 +76,7 @@
 .menu__link:hover {
 	color: $accent-second-color;
 }
-.active {
+.active-link {
 	background-color: $accent-first-color;
 }
 /*search*/
