@@ -105,3 +105,52 @@
 .options__link:hover .icon-arrow-blue {
 	background-position: -80px -62px;
 }
+/*section services*/
+.services {
+	background-color: $bg-color;
+}
+.services__title {
+	padding: 45px 0 50px 0;
+	color: #fff;
+	font-size: 24px;
+	font-family: $accent-font;
+}
+.services__link {
+	width: 260px;
+	display: block;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	float: left;
+	margin-right: 40px;
+}
+.services__link--last {
+	margin-right: 0;
+}
+.services__link:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '+';
+	font-size: 72px;
+	color: #fff;
+	text-decoration: none;
+	font-family: $main-font;
+	background-color: rgba($accent-first-color, 0.9);
+	width: 100%;
+	height: 260px;
+	opacity: 0;
+	line-height: 3.5;
+}
+.services__link:hover:after {
+	opacity: 1;
+}
+.services__img-title {
+	color: #fff;
+	padding: 35px 0 65px 0;
+	font-size: 16px;
+}
+.services__link:hover .services__img-title {
+	color: $accent-second-color;
+}
