@@ -1,0 +1,92 @@
+/*grid*/
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+/*header style*/
+.header {
+	padding-top: 35px;
+}
+.logo {
+	float: left;
+}
+/*social*/
+.social {
+	float: right;
+	margin-top: 12px;
+}
+.social__item {
+	display: inline-block;
+	margin-left: 15px;
+}
+.social__links {
+	display: block;
+	transition: $animation;
+}
+.icon-facebook-grey:hover {
+	background-position: -8px -73px;
+}
+.icon-twitter-grey:hover {
+	background-position: -15px -58px;
+}
+.icon-rss-grey:hover {
+	background-position: -64px -31px;
+}
+.icon-in-grey:hover {
+	background-position: -32px -32px;
+}
+.icon-skype-grey:hover {
+	background-position: -64px 0px;
+}
+/*menu*/
+.menu-wrap {
+	background-color: $bg-color;
+	margin: 35px 0;
+}
+.menu {
+	float: left;
+}
+.menu__item {
+	display: inline-block;
+}
+.menu__link {
+	color: #fff;
+	padding: 20px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: $menu-font;
+	display: block;
+	transition: $animation;
+	border-right: 1px solid #181a1d;
+}
+.menu__link:hover {
+	color: $accent-second-color;
+}
+.active {
+	background-color: $accent-first-color;
+}
+/*search*/
+.search-form {
+	float: right;
+	margin: 7px;
+	position: relative;
+}
+.search-form__input {
+	background-color: #35383c;
+	border: 1px solid #181a1d;
+	outline: 0;
+	padding: 12px 15px;
+}
+.search-form__btn {
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+}

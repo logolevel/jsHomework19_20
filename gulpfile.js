@@ -15,7 +15,7 @@ var gulp 				 = require('gulp')
 
 /*convert sass to css*/
 gulp.task('sass', function() {
-	return gulp.src('app/sass/**/*.sass')
+	return gulp.src('app/sass/**/*.scss')
 		.pipe(sass())
 		.pipe(autoprefixer(['last 15 versions','ie 8'], { cascade: true }))
 		.pipe(gulp.dest('app/css'))
@@ -81,7 +81,7 @@ gulp.task('sprite', function() {
 });
 /*watch*/
 gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function() {
-	gulp.watch('app/sass/**/*.sass', ['sass']);
+	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch('app/*.html', browserSynk.reload);
 	gulp.watch('app/js/**/*.js', browserSynk.reload);
 });
