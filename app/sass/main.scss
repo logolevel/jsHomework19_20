@@ -154,3 +154,72 @@
 .services__link:hover .services__img-title {
 	color: $accent-second-color;
 }
+/*section additionally*/
+.additionally {
+	background-color: #f7f7f7;
+}
+.news,
+.banners {
+	width: 50%;
+	float: left;
+	padding-bottom: 50px;
+}
+.news__title,
+.banners__title {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-family: $accent-font;
+	font-size: 24px;
+}
+/*news*/
+.news__item {
+	padding-bottom: 30px;
+}
+.news__img-wrap {
+	width: 150px;
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+.news__img-date {
+	position: absolute;
+	top: 10px;
+	left: -10px;
+}
+.new__img-month,
+.new__img-day {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-family: $accent-font;
+}
+.new__img-month {
+	color: #fff;
+	background-color: $accent-first-color;
+}
+.new__img-day {
+	background-color: $accent-second-color;
+}
+.new__descr {
+	width: 380px;
+	float: left;
+	color: $text-color;
+	font-size: 13px;
+}
+.news__descr-title {
+	font-family: $accent-font;
+	color: #000;
+	font-size: 16px;
+}
+.news__descr-title:hover {
+	color: $accent-first-color;
+}
+.news__descr-sub {
+	margin: 10px 0 20px 0;
+}
+.news__descr-sub-link {
+	color: $accent-first-color;
+}
+.news__descr-paragraph {
+	line-height: 18px;
+}
