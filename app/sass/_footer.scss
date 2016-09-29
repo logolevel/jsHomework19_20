@@ -33,3 +33,31 @@
 .footer-menu__item:last-child {
 	border-bottom: 1px solid transparent;
 }
+/*footer-bottom*/
+.footer-bottom {
+	background-color: #35383c;
+	padding: 20px 0;
+}
+.footer-bottom__contacts {
+	float: left;
+}
+.footer-bottom__item {
+	display: inline-block;
+	margin-right: 30px;
+}
+.footer-bottom__link {
+	color: $text-color;
+	font-size: 13px;
+	line-height: 18px;
+}
+.icon-inline-f {
+	display: inline-block;
+	margin-right: 5px;
+}
+.footer-bottom__copy {
+	float: right;
+}
+.footer-bottom__copy-text {
+	font-size: 13px;
+	color: $text-color;
+}
