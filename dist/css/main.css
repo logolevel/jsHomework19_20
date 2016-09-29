@@ -305,7 +305,7 @@ a {
 .news__img-date {
   position: absolute;
   top: 10px;
-  left: -20px; }
+  left: -10px; }
 
 .new__img-month,
 .new__img-day {
@@ -347,39 +347,21 @@ a {
 /*accordion*/
 .accordion__link {
   display: block;
-  padding: 10px 50px;
+  padding: 10px;
   text-transform: uppercase;
   font-family: "Ubuntu Condensed", Arial, sans-serif;
   letter-spacing: 1px;
-  border: 1px solid #ccc;
+  border: 1px solid #8a8a8a;
   background-color: #fff;
-  margin-bottom: 5px;
-  color: #000; }
-
-.accordion dt {
-  position: relative; }
-
-.accordion__link:before {
-  content: '+';
-  border-right: 1px solid #ccc;
-  line-height: 38px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 0 15px;
-  font-size: 18px; }
+  margin-bottom: 5px; }
 
 .active-ac-link {
   background-color: #f4b60d;
   color: #fff;
   border: 1px solid transparent; }
 
-.active-ac-link:before {
-  content: '-'; }
-
 .accordion__paragraph {
-  padding: 30px 10px 30px 40px;
+  padding: 30px 10px 20px 40px;
   font-family: Arial, Helvetica, sans-serif;
   color: #8a8a8a;
   font-size: 13px;
