@@ -37,19 +37,20 @@
 .footer-bottom {
 	background-color: #35383c;
 	padding: 20px 0;
-}
-.footer-bottom__contacts {
+
+	&__contacts {
 	float: left;
-}
-.footer-bottom__item {
-	display: inline-block;
-	margin-right: 30px;
-}
-.footer-bottom__link {
-	color: $text-color;
-	font-size: 13px;
-	line-height: 18px;
-}
+	}
+	&__item {
+		display: inline-block;
+		margin-right: 30px;
+	}
+	&__link {
+		color: $text-color;
+		font-size: 13px;
+		line-height: 18px;
+	}
+}//end footer-bottom
 .icon-inline-f {
 	display: inline-block;
 	margin-right: 5px;

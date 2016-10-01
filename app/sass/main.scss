@@ -60,14 +60,15 @@
 /*section options*/
 .options {
 	margin: 65px 0 85px 0;
-}
-.options__item {
+
+	&__item {
 	position: relative;
 	width: 33.33333333%;
 	padding: 0 35px 0 120px;
 	float: left;
-}
-.options__key {
+	}
+
+	&__key {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -75,85 +76,91 @@
 	font-size: 90px;
 	color: $negative-color;
 	line-height: 64px;
-}
-.icon {
-	display: block;
-}
-.options__title {
+	}
+
+	&__title {
 	font-size: 20px;
 	margin: 20px 0;
 	font-family: $accent-font;
-}
-.options__paragraph {
-	font-size: 13px;
-	color: $text-color;
-	line-height: 18px;
-	margin-bottom: 20px;
+	}
+	&__paragraph {
+		font-size: 13px;
+		color: $text-color;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+	&__link {
+	font-family: $accent-font;
+	text-decoration: none;
+	color: #000;
+	}
+	&__link:hover {
+		color: $accent-first-color;
+	}
+	&__link:hover .icon-arrow-blue {
+		background-position: -80px -62px;
+	}
+}//end options
+.icon {
+	display: block;
 }
 .icon-inline {
 	display: inline-block;
 	margin-left: 10px;
 }
-.options__link {
-	font-family: $accent-font;
-	text-decoration: none;
-	color: #000;
-}
-.options__link:hover {
-	color: $accent-first-color;
-}
-.options__link:hover .icon-arrow-blue {
-	background-position: -80px -62px;
-}
 /*section services*/
 .services {
 	background-color: $bg-color;
-}
-.services__title {
+
+	&__title {
 	padding: 45px 0 50px 0;
 	color: #fff;
 	font-size: 24px;
 	font-family: $accent-font;
-}
-.services__link {
-	width: 260px;
-	display: block;
-	text-align: center;
-	position: relative;
-	text-decoration: none;
-	float: left;
-	margin-right: 40px;
-}
-.services__link--last {
-	margin-right: 0;
-}
-.services__link:after {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: '+';
-	font-size: 72px;
-	color: #fff;
-	text-decoration: none;
-	font-family: $main-font;
-	background-color: rgba($accent-first-color, 0.9);
-	width: 100%;
-	height: 260px;
-	opacity: 0;
-	line-height: 3.5;
-}
-.services__link:hover:after {
-	opacity: 1;
-}
-.services__img-title {
-	color: #fff;
-	padding: 35px 0 65px 0;
-	font-size: 16px;
-}
-.services__link:hover .services__img-title {
-	color: $accent-second-color;
-}
+	}
+	&__link {
+		width: 260px;
+		display: block;
+		text-align: center;
+		position: relative;
+		text-decoration: none;
+		float: left;
+		margin-right: 40px;
+	}
+	&__link--last {
+		margin-right: 0;
+	}
+	&__link:after {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: '+';
+		font-size: 72px;
+		color: #fff;
+		text-decoration: none;
+		font-family: $main-font;
+		background-color: rgba($accent-first-color, 0.9);
+		width: 100%;
+		height: 260px;
+		opacity: 0;
+		line-height: 3.5;
+		transition: $animation;
+	}
+	&__link:hover:after {
+		opacity: 1;
+	}
+	&__img-title {
+		color: #fff;
+		padding: 35px 0 65px 0;
+		font-size: 16px;
+	}
+	&__link:hover &__img-title {
+		color: $accent-second-color;
+	}
+
+}//end services
+
 /*section additionally*/
 .additionally {
 	background-color: #f7f7f7;

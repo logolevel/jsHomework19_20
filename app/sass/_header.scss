@@ -1,6 +1,6 @@
 body {
-	background-color: #fff;
 	font-family: $main-font;
+	min-width: 1160px;
 }
 a {
 	text-decoration: none;
@@ -32,23 +32,26 @@ a {
 .social {
 	float: right;
 	margin-top: 12px;
-}
-.social__item {
+
+	&__item {
 	display: inline-block;
 	margin-left: 15px;
-}
-.social__links {
+	}
+
+	&__links {
 	display: block;
-	transition: $animation;
-}
+	transition: opacity 0.5s;
+	}
+}//end social
+
 .icon-facebook-grey:hover {
-	background-position: -8px -73px;
+	background-position: 0px -73px;
 }
 .icon-twitter-grey:hover {
-	background-position: -15px -58px;
+	background-position: -32px -58px;
 }
 .icon-rss-grey:hover {
-	background-position: -64px -31px;
+	background-position: -64px -16px;
 }
 .icon-in-grey:hover {
 	background-position: -32px -32px;
@@ -63,11 +66,11 @@ a {
 }
 .menu {
 	float: left;
-}
-.menu__item {
+	&__item {
 	display: inline-block;
-}
-.menu__link {
+	}
+
+	&__link {
 	color: #fff;
 	padding: 20px 40px;
 	text-decoration: none;
@@ -76,10 +79,13 @@ a {
 	display: block;
 	transition: $animation;
 	border-right: 1px solid #181a1d;
-}
-.menu__link:hover {
+	}
+	
+	&__link:hover {
 	color: $accent-second-color;
 }
+}//end menu
+
 .active-link {
 	background-color: $accent-first-color;
 }
@@ -88,18 +94,20 @@ a {
 	float: right;
 	margin: 7px;
 	position: relative;
-}
-.search-form__input {
+
+	&__input {
 	background-color: #35383c;
 	border: 1px solid #181a1d;
 	outline: 0;
 	padding: 12px 15px;
-}
-.search-form__btn {
+	}
+
+	&__btn {
 	background-color: transparent;
 	border: 0;
 	cursor: pointer;
 	position: absolute;
 	top: 12px;
 	right: 15px;
-}
+	}
+}//end search-form

@@ -83,25 +83,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-facebook-grey {
   background-image: url(../sprites/sprite.png);
-  background-position: -8px -73px;
-  width: 8px;
-  height: 16px; }
-
-.icon-facebook-grey {
-  background-image: url(../sprites/sprite.png);
   background-position: -80px -46px;
   width: 8px;
   height: 16px; }
 
 .icon-in-blue {
   background-image: url(../sprites/sprite.png);
-  background-position: -48px -32px;
+  background-position: -32px -32px;
   width: 16px;
   height: 16px; }
 
 .icon-in-grey {
   background-image: url(../sprites/sprite.png);
-  background-position: -64px -16px;
+  background-position: -64px -31px;
   width: 16px;
   height: 15px; }
 
@@ -125,7 +119,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-rss-blue {
   background-image: url(../sprites/sprite.png);
-  background-position: -64px -31px;
+  background-position: -64px -16px;
   width: 16px;
   height: 15px; }
 
@@ -149,19 +143,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-skype-grey {
   background-image: url(../sprites/sprite.png);
-  background-position: -32px -32px;
+  background-position: -48px -32px;
   width: 16px;
   height: 16px; }
 
 .icon-twitter-blue {
   background-image: url(../sprites/sprite.png);
-  background-position: -15px -58px;
+  background-position: -32px -58px;
   width: 17px;
   height: 13px; }
 
 .icon-twitter-grey {
   background-image: url(../sprites/sprite.png);
-  background-position: -32px -58px;
+  background-position: -15px -58px;
   width: 17px;
   height: 13px; }
 
