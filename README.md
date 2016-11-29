@@ -1,6 +1,6 @@
 # jsHomework19_20
 Build Home template (scss + BEM)
-<h1><a href="https://logolevel.github.io/projects/build_home/index.html">VIEW DEMO</a></h1>
+<h1><a href="https://logolevel.github.io/jsHomework19_20/dist/">VIEW DEMO</a></h1>
 
 <p>Task:</p>
 <ol>
